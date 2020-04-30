@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            yourFurn-Login/signup
+        </title>
+    </head>
+    <style>
+.bag{
+    width:100%; 
+    height: auto ;
+    position: relative;
+    background-Image: url("f6.jpg");
+    justify-Content: center;
+    align-Items: center;
+    box-sizing: borderbox;
+      
+  background-Position: center;
+  background-Size: cover;
+  background-Repeat:no-repeat;
+
+
+  
+}
+
+
+.body {
+	
+	display: flex ;
+	justify-content: center ;
+	align-Items: center ;
+	flex-Direction: column ;
+
+	height: 100vh;
+	margin: -20px 0 50px ;
+}
+
+
+.button {
+	
+
+	background-color: yellowgreen;
+	color: #FFFFFF ;
+	font-Size: 12px;
+	font-Weight: bold ;
+	padding: 12px 45px ;
+	letter-Spacing: 1px ;
+	border-Radius: 10px;
+	transition: transform 80ms ease-in 
+}
+
+.form {
+	background-Color: #FFFFFF;
+	display: flex;
+	align-Items: center;
+	justify-Content: center;
+	flex-Direction: column;
+	padding: 0 50px;
+	height: 100%;
+    text-Align: center; 
+    
+}
+
+.input { 
+	background-Color: #eee ;
+	border: none;
+	padding: 15px 5px;
+	margin: 8px 0;
+  width: 70%;
+  border-Radius: 10px;
+}
+</style>
+<body>
+   <div>
+      <form class="form">
+        <div class="bag">
+        
+          <div class="body">
+        <h1 style="color: #eee;">login </h1>
+        <input type="text" placeholder="Mobile or Email" class="input" /> &nbsp;
+        <input type="password" placeholder="password" class="input"/> <br />
+        <button type="button" class="button">Login </button> 
+        </div>
+        
+  
+        <div>
+        <h1 style="color: #eee;"> Or create an account</h1>
+        <h2 style="color: #eee;">Get connected with us</h2>      
+        <input type="text" placeholder="Name" class="input"/> 
+           
+        <input type="text"  placeholder="Mobile or Email" class="input"  />
+        <input type="password" placeholder="New password" class="input"/> 
+        <input type="password" placeholder="Confirm password" class="input" />
+        <input type="text" placeholder="Age" class="input" /><br />
+        Kindly select your gender :
+        <input type="radio" name="gender" value="male" /> Male &nbsp;
+        <input type="radio" name="gender" value="female" /> Female &nbsp;
+        <input type="radio" name="gender" value="other" /> Other <br />
+       
+        <p><b>By creating an account you will be a part of our ever growing family click signup to continue</b> </p>
+        <button type="button" class="button">Sign up</button> 
+        </div>
+        </div>
+      </form>
+  
+      </div>
+    </body>
+      </html>
+  
